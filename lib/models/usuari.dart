@@ -3,5 +3,5 @@ class Usuari {
   int? edat;
   List<String>? professions;
 
-  Usuari({this.nom, this.edat, this.professions});
+  Usuari({required this.nom, required this.edat, required this.professions});
 }
